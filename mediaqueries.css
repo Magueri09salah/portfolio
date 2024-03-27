@@ -1,0 +1,184 @@
+@media (min-width : 1024px) and (max-width: 1300px){
+    main .hero-section .about{
+        width: 65%;
+    }
+    main .hero-section .about #name{
+        font-size: 1.75em;
+    }
+    main .hero-section .about p{
+        font-size: 1em;
+    }
+    main .hero-section .profile{
+        width: 30%;
+    }
+    main .hero-section .profile img{
+        width: 100%;
+    }
+    main .projects .all-project-article .website-project, main .projects .all-project-article .uiux-design{
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    main .projects .all-project-article .website-project article, main .projects .all-project-article .uiux-design article{
+        width: 40%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+	/* header */
+	#header .hamburger {
+		display: none;
+	}
+	#header .nav-list ul {
+		position: initial;
+		display: block;
+		height: auto;
+		width: fit-content;
+		background-color: transparent;
+	}
+	#header .nav-list ul li {
+		display: inline-block;
+	}
+	#header .nav-list ul li a {
+		/* font-size: 1.8rem; */
+	}
+	#header .nav-list ul a:after {
+		display: none;
+	}
+	/* End header */
+
+	
+}
+@media (min-width : 768px) and (max-width : 1024px){
+    main .hero-section .about{
+        width: 65%;
+    }
+    main .hero-section .about #name{
+        font-size: 1.25em;
+    }
+    main .hero-section .about p{
+        font-size: 1em;
+    }
+    main .hero-section .profile{
+        width: 30%;
+    }
+    main .hero-section .profile img{
+        width: 100%;
+    }
+    main .projects .all-project-article .website-project, main .projects .all-project-article .uiux-design{
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    main .projects .all-project-article .website-project article, main .projects .all-project-article .uiux-design article{
+        width: 80%;
+    }
+    main .timeline .experiences, main .timeline .education{
+        width: 100%;
+    }
+    main .projects .buttons a{
+        padding: 4px 30px;
+    }
+}
+
+@media (min-width : 480px) and (max-width : 768px){
+
+   
+    
+    main .hero-section{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    main .hero-section .about{
+        width: 100%;
+        align-items: center;
+    }
+    main .hero-section .about #name{
+        font-size: 1em;
+        text-align: center;
+    }
+    main .hero-section .about p{
+        font-size: 1em;
+        text-align: center;
+    }
+    main .timeline .experiences, main .timeline .education{
+        width: 100%;
+    }
+    main .timeline .experiences h1, main .timeline .education h1{
+       font-size: 1.2em;
+    }
+    main .timeline .experiences .details .title h2, main .timeline .education .details .title h2{
+        font-size: 1em;
+    }
+    main .timeline .experiences .details .title p, main .timeline .education .details .title p{
+        font-size: 0.7em;
+    }
+    main .projects h1{
+        font-size: 1.2em;
+    }
+    main .projects .buttons a{
+        padding: 2px 10px;
+        font-size: 1em;
+    }
+    main .projects .all-project-article .website-project, main .projects .all-project-article .uiux-design{
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    main .projects .all-project-article .website-project article, main .projects .all-project-article .uiux-design article{
+        width: 100%;
+    }
+    main .skills h1{
+        font-size: 1.2em;
+    }
+    footer .banner p{
+        font-size: 0.5em;
+    }
+}
+
+@media (min-width : 360px) and (max-width : 480px){
+    main .hero-section{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    main .hero-section .about{
+        width: 100%;
+        align-items: center;
+    }
+    main .hero-section .about #name{
+        font-size: 0.5em;
+        text-align: center;
+    }
+    main .hero-section .about p{
+        font-size: 1em;
+        text-align: center;
+    }
+    main .timeline .experiences, main .timeline .education{
+        width: 100%;
+    }
+    main .timeline .experiences h1, main .timeline .education h1{
+       font-size: 1.2em;
+    }
+    main .timeline .experiences .details .title h2, main .timeline .education .details .title h2{
+        font-size: 1em;
+    }
+    main .timeline .experiences .details .title p, main .timeline .education .details .title p{
+        font-size: 0.7em;
+    }
+    main .projects h1{
+        font-size: 1.2em;
+    }
+    main .projects .buttons a{
+        padding: 2px 10px;
+        font-size: 0.6em;
+    }
+    main .projects .all-project-article .website-project, main .projects .all-project-article .uiux-design{
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    main .projects .all-project-article .website-project article, main .projects .all-project-article .uiux-design article{
+        width: 100%;
+    }
+    main .skills h1{
+        font-size: 1.2em;
+    }
+    footer .banner p{
+        font-size: 0.5em;
+    }
+}
