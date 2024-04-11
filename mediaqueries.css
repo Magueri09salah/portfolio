@@ -136,6 +136,9 @@
 }
 
 @media (min-width : 360px) and (max-width : 480px){
+	#header .nav-bar{
+		padding: 0 50px;
+	}
     main .hero-section{
         flex-direction: column-reverse;
         gap: 30px;
