@@ -193,6 +193,9 @@
     main .skills h1{
         font-size: 1.2em;
     }
+	.contact-left-title h1{
+		font-size: 1.2em;
+	}
 	footer .banner{
 		flex-direction : column;
 		gap : 15px;
