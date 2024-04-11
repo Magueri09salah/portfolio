@@ -197,6 +197,9 @@
 		flex-direction : column;
 		gap : 15px;
 	}
+	footer .contact-container{
+		padding : 0 50px;
+	}
     footer .banner p{
         font-size: 0.5em;
     }
