@@ -193,6 +193,9 @@
     main .skills h1{
         font-size: 1.2em;
     }
+	footer .banner{
+		flex-direction : column;
+	}
     footer .banner p{
         font-size: 0.5em;
     }
