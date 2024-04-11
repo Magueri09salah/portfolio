@@ -110,6 +110,9 @@
     main .timeline .experiences .details .title p, main .timeline .education .details .title p{
         font-size: 0.7em;
     }
+	main .projects{
+		padding: 0 80px;
+	}
     main .projects h1{
         font-size: 1.2em;
     }
