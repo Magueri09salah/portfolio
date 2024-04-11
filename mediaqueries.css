@@ -187,6 +187,9 @@
     main .projects .all-project-article .website-project article, main .projects .all-project-article .uiux-design article{
         width: 100%;
     }
+	main .skills{
+		    padding: 50px 50px;
+	}
     main .skills h1{
         font-size: 1.2em;
     }
