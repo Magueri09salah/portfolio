@@ -152,6 +152,9 @@
         font-size: 1em;
         text-align: center;
     }
+	main .timeline{
+		padding: 50px 50px;
+	}
     main .timeline .experiences, main .timeline .education{
         width: 100%;
     }
