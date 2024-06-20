@@ -288,6 +288,9 @@ main .projects .buttons a{
     font-weight: 700;
 	cursor : pointer;
 }
+main .projects .buttons a::hover{
+	color: var(--color-yellow);
+}
 /* main .projects .buttons a:active{
    background-color: var(--color-white);
    color: var(--color-black);
