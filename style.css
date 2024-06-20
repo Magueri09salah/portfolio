@@ -286,6 +286,7 @@ main .projects .buttons a{
     border-radius: 40px;
     color: var(--color-white);
     font-weight: 700;
+	cursor : pointer;
 }
 /* main .projects .buttons a:active{
    background-color: var(--color-white);
